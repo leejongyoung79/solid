@@ -1,0 +1,13 @@
+# 파이썬 가상환경
+venv/
+.venv/
+__pycache__/
+
+# 노드 패키지 (React 등 사용 시)
+node_modules/
+
+# 로그 및 임시 파일
+*.log
+.DS_Store
+dist/
+build/
