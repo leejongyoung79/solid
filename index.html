@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>솔리드 탐정사무소 | 당신의 고민을 해결해 드립니다</title>
+    <meta name="description" content="솔리드 탐정사무소. 가정고민, 개인고민, 사건, 사고, 신변경호, 기업체 조사. 고객의 안전과 비밀보장을 최우선으로 합니다.">
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=Playfair+Display:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <i class="fa-solid fa-magnifying-glass"></i> SOLID Detective Agency
+            </a>
+            <ul class="nav-links">
+                <li><a href="#home">홈</a></li>
+                <li><a href="#services">상담분야</a></li>
+                <li><a href="#about">사무소 소개</a></li>
+                <li><a href="#process">업무절차</a></li>
+                <li><a href="#contact" class="btn-contact-nav">무료 상담문의</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <div class="hero-text reveal">
+                <h2 class="subtitle">솔리드 탐정사무소</h2>
+                <h1 class="title" style="margin-bottom: 20px;">
+                    <i class="fa-solid fa-magnifying-glass" style="font-size: 7rem; color: var(--gold-primary); text-shadow: 0 10px 30px rgba(0,0,0,0.8);"></i>
+                </h1>
+                <p class="description">고객의 안전과 비밀보장을 최우선으로 합니다.<br>혼자 힘들어 하셨던 여러분의 고민을 책임지고 해결해 드리겠습니다.</p>
+                <div class="hero-actions">
+                    <a href="#contact" class="btn btn-primary">빠른 상담받기 <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="#services" class="btn btn-outline">업무분야 안내</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services section-padding parallax" id="services">
+        <div class="parallax-overlay"></div>
+        <div class="container relative-z">
+            <div class="section-header reveal text-center">
+                <h4 class="section-subtitle">Our Services</h4>
+                <h2 class="section-title">상담 분야</h2>
+                <div class="divider center"></div>
+                <p class="section-desc">저희 솔리드는 다양한 분야에서 발생할 수 있는 복잡한 문제들을 신속하고 전문적으로 해결합니다.</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card reveal" style="transition-delay: 0.1s;">
+                    <div class="service-icon"><i class="fa-solid fa-house-chimney-user"></i></div>
+                    <h3>가정고민</h3>
+                    <p>배우자 외도 증거 수집, 이혼 소송 준비, 가출인 찾기 등 가정 내 복잡하고 민감한 문제들을 신속하고 은밀하게 파악하여 해결책을 제시합니다.</p>
+                </div>
+                <div class="service-card reveal" style="transition-delay: 0.2s;">
+                    <div class="service-icon"><i class="fa-solid fa-user-lock"></i></div>
+                    <h3>개인고민</h3>
+                    <p>심각한 스토킹 대응, 악성 층간소음 분쟁, 채권채무 갈등, 각종 지능형 사기 사건 등 혼자서 감당하고 해결하기 힘든 개인의 물리적/정신적 고충을 돕습니다.</p>
+                </div>
+                <div class="service-card reveal" style="transition-delay: 0.3s;">
+                    <div class="service-icon"><i class="fa-solid fa-car-burst"></i></div>
+                    <h3>사건, 사고, 신변경호</h3>
+                    <p>미심쩍은 교통사고 심층 조사, 조직적 보험사기 적발, 밀착 신변경호 등 물리적인 위협이나 은폐된 사고의 진실을 규명하고 고객의 안전을 지킵니다.</p>
+                </div>
+                <div class="service-card reveal" style="transition-delay: 0.4s;">
+                    <div class="service-icon"><i class="fa-solid fa-building-shield"></i></div>
+                    <h3>기업, 사업체</h3>
+                    <p>교묘한 산업스파이 적발, 임직원 횡령 및 배임 조사, 핵심 지적재산권 침해 방어 등 기업의 생존과 직결된 치명적인 기업 범죄를 신속히 처리합니다.</p>
+                </div>
+            </div>
+
+            <!-- Contact Info under the domains -->
+            <div class="support-grid" style="margin-top: 80px;">
+                <div class="support-card reveal">
+                    <h3>상담 및 문의안내 <span>(친절하게 상담해 드립니다)</span></h3>
+                    <ul class="contact-list huge-contact">
+                        <li>
+                            <div class="icon-circle"><i class="fa-solid fa-phone"></i></div>
+                            <div>
+                                <span>대표전화</span>
+                                <strong>053-565-6427</strong>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon-circle"><i class="fa-solid fa-fax"></i></div>
+                            <div>
+                                <span>모바일팩스</span>
+                                <strong>0504-340-6427</strong>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="support-card reveal" style="transition-delay: 0.1s;">
+                    <h3>이메일 문의 <span>(24시간 온라인 접수)</span></h3>
+                    <ul class="contact-list huge-contact">
+                        <li>
+                            <div class="icon-circle"><i class="fa-solid fa-envelope"></i></div>
+                            <div>
+                                <span>이메일 주소</span>
+                                <strong>anhs6427@naver.com</strong>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- About Section -->
+    <section class="about section-padding" id="about">
+        <div class="container">
+            <div class="section-header reveal">
+                <h4 class="section-subtitle">Who we are</h4>
+                <h2 class="section-title">최정예 전문가들로 구성된 팀</h2>
+                <div class="divider"></div>
+            </div>
+            
+            <div class="about-grid">
+                <div class="about-text reveal" style="transition-delay: 0.1s;">
+                    <p class="lead">솔리드 탐정사무소는 설립이후 수많은 사건을 접하며 경험과 신뢰를 바탕으로 쌓아온 전문가들 팀으로 구성되어 있습니다.</p>
+                    
+                    <div class="expertise-list">
+                        <div class="expertise-item">
+                            <div class="icon-wrap"><i class="fa-solid fa-scale-balanced"></i></div>
+                            <div>
+                                <h3>법무법인 로펌 협력</h3>
+                                <p>법적인 테두리 안에서 가장 완벽하고 유리한 대응을 준비합니다.</p>
+                            </div>
+                        </div>
+                        <div class="expertise-item">
+                            <div class="icon-wrap"><i class="fa-solid fa-file-contract"></i></div>
+                            <div>
+                                <h3>검찰청 출신 법무사</h3>
+                                <p>정확하고 치밀한 문서 작업과 법적 절차 진행을 보장합니다.</p>
+                            </div>
+                        </div>
+                        <div class="expertise-item">
+                            <div class="icon-wrap"><i class="fa-solid fa-shield-halved"></i></div>
+                            <div>
+                                <h3>광역수사대 전직 경찰</h3>
+                                <p>풍부한 실전 경험을 바탕으로 은밀하고 확실한 증거를 수집합니다.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-quotes reveal" style="transition-delay: 0.2s;">
+                    <div class="quote-card">
+                        <i class="fa-solid fa-quote-left quote-icon"></i>
+                        <blockquote>"In teaching others We teach ourselves"</blockquote>
+                        <div class="quote-card-bg"></div>
+                    </div>
+                    <div class="quote-card quote-accent">
+                        <i class="fa-solid fa-quote-left quote-icon"></i>
+                        <blockquote>"Where there is love There is life"</blockquote>
+                        <div class="quote-card-bg"></div>
+                    </div>
+                    <div class="quote-card">
+                        <i class="fa-solid fa-quote-left quote-icon"></i>
+                        <blockquote>"Doing one's best We welcome you.<br>Welcome To Solid"</blockquote>
+                        <div class="quote-card-bg"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process section-padding" id="process">
+        <div class="container">
+            <div class="section-header reveal text-center">
+                <h4 class="section-subtitle">Work Flow</h4>
+                <h2 class="section-title">투명한 업무 절차</h2>
+                <div class="divider center"></div>
+                <p class="section-desc">업무 종결 후 모든 증거 및 수집된 정황 자료는 철저하게 파기하여 고객의 비밀을 완벽하게 보장합니다.</p>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-item reveal" style="transition-delay: 0.1s;">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-number">01</div>
+                    <div class="timeline-content">
+                        <h3>상담 및 조사 의뢰</h3>
+                        <p>전문가와의 통신 상담을 거쳐 필요한 조사를 의뢰합니다.</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal" style="transition-delay: 0.2s;">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-number">02</div>
+                    <div class="timeline-content">
+                        <h3>상세분석 및 계약 체결</h3>
+                        <p>사건의 정황을 상세 분석하고 합리적인 비용으로 계약을 체결합니다.</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal" style="transition-delay: 0.3s;">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-number">03</div>
+                    <div class="timeline-content">
+                        <h3>팀 구성 계획</h3>
+                        <p>현장의 특성 및 특이점을 파악 후 가장 최적화된 전담 팀을 구성합니다.</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal" style="transition-delay: 0.4s;">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-number">04</div>
+                    <div class="timeline-content">
+                        <h3>현장 조사팀 착수</h3>
+                        <p>배정된 전문 현장 조사팀이 신속하게 본격적인 탐문과 잠복에 착수합니다.</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal" style="transition-delay: 0.5s;">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-number">05</div>
+                    <div class="timeline-content">
+                        <h3>상황 지속 보고</h3>
+                        <p>상시 진행 상황을 파악하여 의뢰인에게 수시로 안전하게 전달합니다.</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal" style="transition-delay: 0.6s;">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-number">06</div>
+                    <div class="timeline-content">
+                        <h3>피드백 및 보완 조사</h3>
+                        <p>의뢰인과 상시 소통 후, 필요 구역이나 상황에 대한 보완 조사를 실행합니다.</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal" style="transition-delay: 0.7s;">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-number">07</div>
+                    <div class="timeline-content">
+                        <h3>증거 및 정황 전달</h3>
+                        <p>수집된 확실한 증거와 정황 정보를 의뢰인에게 최우선으로 전달합니다.</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal" style="transition-delay: 0.8s;">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-number">08</div>
+                    <div class="timeline-content">
+                        <h3>업무 종결 및 자료 폐기</h3>
+                        <p>모든 업무 완료 후, 유출 위험 방지를 위해 모든 증거 정황 자료를 영구 폐기합니다.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Contact -->
+    <footer class="footer" id="contact">
+        <div class="container section-padding">
+            <div class="footer-grid">
+                <div class="footer-info reveal">
+                    <a href="#" class="logo footer-logo">
+                        <i class="fa-solid fa-magnifying-glass"></i> SOLID
+                    </a>
+                    <p class="footer-desc">솔리드 탐정사무소는 수많은 현장 경험과 축적된 노하우, 전문 법률 지식으로 당신의 답답한 고민을 가장 확실하게 풀어드립니다.</p>
+                    <div class="contact-badges">
+                        <span class="badge"><i class="fa-solid fa-user-secret"></i> 비밀보장 100%</span>
+                        <span class="badge"><i class="fa-solid fa-bolt"></i> 신속대응</span>
+                    </div>
+                </div>
+                
+
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="container relative-z">
+                <p>&copy; 2026 솔리드 탐정사무소. All rights reserved. 고객님의 정보를 외부로 절대 유출하지 않습니다.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
