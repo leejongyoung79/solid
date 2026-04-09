@@ -227,7 +227,7 @@ ul {
 
 .logo {
     font-family: 'Playfair Display', serif;
-    font-size: 1.8rem;
+    font-size: 1.25rem;
     font-weight: 600;
     color: var(--gold-primary);
     letter-spacing: 1px;
@@ -702,6 +702,12 @@ ul {
     transform: translateY(0);
 }
 
+.hero-big-icon {
+    font-size: 7rem;
+    color: var(--gold-primary);
+    text-shadow: 0 10px 30px rgba(0,0,0,0.8);
+}
+
 /* ========= MEDIA QUERIES ========= */
 @media (max-width: 992px) {
     .hero .title { font-size: 3rem; }
@@ -837,6 +843,8 @@ ul {
     .support-grid { grid-template-columns: 1fr; }
     .support-card { padding: 30px 20px; }
     .support-card h3 { font-size: 1.5rem; }
-    .huge-contact li div strong { font-size: 1.6rem; }
-    .huge-contact .icon-circle { width: 60px; height: 60px; font-size: 1.6rem; }
+    .huge-contact li div strong { font-size: 1.3rem; }
+    .huge-contact .icon-circle { width: 50px; height: 50px; font-size: 1.4rem; }
+    .hero-big-icon { font-size: 4.5rem; text-shadow: 0 5px 15px rgba(0,0,0,0.6); }
+    .section-padding { padding: 50px 0; }
 }
