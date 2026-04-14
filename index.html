@@ -19,14 +19,15 @@
     <nav class="navbar">
         <div class="container nav-container">
             <a href="#" class="logo">
-                <i class="fa-solid fa-magnifying-glass"></i> SOLID Detective Agency
+                <i class="fa-solid fa-magnifying-glass-chart" style="color:var(--gold-primary);"></i> <span style="color:#fff;">탐정사무소</span>
             </a>
             <ul class="nav-links">
                 <li><a href="#home">홈</a></li>
-                <li><a href="#services">상담분야</a></li>
-                <li><a href="#about">사무소 소개</a></li>
-                <li><a href="#process">업무절차</a></li>
-                <li><a href="#contact" class="btn-contact-nav">무료 상담문의</a></li>
+                <li><a href="#services">서비스 소개</a></li>
+                <li><a href="#process">업무 절차</a></li>
+                <li><a href="#cases">성공 사례</a></li>
+                <li><a href="#reviews">고객 후기</a></li>
+                <li><a href="#contact" class="btn-contact-nav" style="border: 1px solid var(--border-light); color: var(--text-primary); border-radius: 20px; padding: 6px 16px;">고객 상담 <i class="fa-solid fa-chevron-right" style="font-size:0.7em; margin-left:3px; color:var(--text-secondary);"></i></a></li>
             </ul>
             <div class="hamburger">
                 <i class="fa-solid fa-bars"></i>
@@ -39,50 +40,66 @@
         <div class="hero-overlay"></div>
         <div class="container hero-content">
             <div class="hero-text reveal">
-                <h2 class="subtitle">솔리드 탐정사무소</h2>
-                <h1 class="title" style="margin-bottom: 20px;">
-                    <i class="fa-solid fa-magnifying-glass hero-big-icon"></i>
+                <h1 class="title">
+                    확실한 증거,<br>믿을 수 있는 조사
                 </h1>
-                <p class="description">고객의 안전과 비밀보장을 최우선으로 합니다.<br>혼자 힘들어 하셨던 여러분의 고민을 책임지고 해결해 드리겠습니다.</p>
+                <p class="description">합법적이고 선도적인 탐정 서비스</p>
                 <div class="hero-actions">
-                    <a href="#contact" class="btn btn-primary">빠른 상담받기 <i class="fa-solid fa-arrow-right"></i></a>
-                    <a href="#services" class="btn btn-outline">업무분야 안내</a>
+                    <a href="#contact" class="btn btn-primary">무료 상담 신청</a>
+                    <a href="tel:053-565-6427" class="btn btn-dark-outline"><i class="fa-solid fa-phone" style="color:var(--gold-primary);"></i> 전화 문의 053-565-6427</a>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Services Section -->
-    <section class="services section-padding parallax" id="services">
-        <div class="parallax-overlay"></div>
+    <section class="services section-padding" id="services">
         <div class="container relative-z">
             <div class="section-header reveal text-center">
-                <h4 class="section-subtitle">Our Services</h4>
-                <h2 class="section-title">상담 분야</h2>
-                <div class="divider center"></div>
-                <p class="section-desc">저희 솔리드는 다양한 분야에서 발생할 수 있는 복잡한 문제들을 신속하고 전문적으로 해결합니다.</p>
+                <div class="section-star-icon"><i class="fa-solid fa-star"></i></div>
+                <h2 class="section-title" style="font-family:'Noto Sans KR', sans-serif;">탐정사무소의 주요 서비스</h2>
+                <p class="section-desc" style="font-size:0.9rem;">생활 안전을 향한 당신의 첫 번째 안심 파트너가 되겠습니다.</p>
             </div>
             
             <div class="services-grid">
                 <div class="service-card reveal" style="transition-delay: 0.1s;">
-                    <div class="service-icon"><i class="fa-solid fa-house-chimney-user"></i></div>
-                    <h3>가정고민</h3>
-                    <p>배우자 외도 증거 수집, 이혼 소송 준비, 가출인 찾기 등 가정 내 복잡하고 민감한 문제들을 신속하고 은밀하게 파악하여 해결책을 제시합니다.</p>
+                    <div class="service-img-icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <span class="check-overlay"><i class="fa-solid fa-circle-check"></i></span>
+                    </div>
+                    <h3>배우자/연인 조사</h3>
+                    <div class="service-divider"></div>
+                    <p>특정 대상의 지속적인 동선과 소재를 파악하여 명확한 증거자료를 제공합니다.</p>
+                    <a href="#contact" class="btn-service-detail">자세히 보기 <i class="fa-solid fa-chevron-right" style="font-size:0.8em; margin-left:3px;"></i></a>
                 </div>
                 <div class="service-card reveal" style="transition-delay: 0.2s;">
-                    <div class="service-icon"><i class="fa-solid fa-user-lock"></i></div>
-                    <h3>개인고민</h3>
-                    <p>심각한 스토킹 대응, 악성 층간소음 분쟁, 채권채무 갈등, 각종 지능형 사기 사건 등 혼자서 감당하고 해결하기 힘든 개인의 물리적/정신적 고충을 돕습니다.</p>
+                    <div class="service-img-icon">
+                        <i class="fa-solid fa-map-location-dot"></i>
+                    </div>
+                    <h3>위치 추적 및<br>증거 수집</h3>
+                    <div class="service-divider"></div>
+                    <p>치밀한 조사와 증거 수집을 통해 사실을 명확하게 파악하여 드립니다.</p>
+                    <a href="#contact" class="btn-service-detail">자세히 보기 <i class="fa-solid fa-chevron-right" style="font-size:0.8em; margin-left:3px;"></i></a>
                 </div>
                 <div class="service-card reveal" style="transition-delay: 0.3s;">
-                    <div class="service-icon"><i class="fa-solid fa-car-burst"></i></div>
-                    <h3>사건, 사고, 신변경호</h3>
-                    <p>미심쩍은 교통사고 심층 조사, 조직적 보험사기 적발, 밀착 신변경호 등 물리적인 위협이나 은폐된 사고의 진실을 규명하고 고객의 안전을 지킵니다.</p>
+                    <div class="service-img-icon">
+                        <i class="fa-solid fa-building-user"></i>
+                        <span class="check-overlay"><i class="fa-solid fa-magnifying-glass"></i></span>
+                    </div>
+                    <h3>기업/배경 조사</h3>
+                    <div class="service-divider"></div>
+                    <p>안전한 비즈니스를 위해 기업 정보와 배경을 철저하게 조사합니다.</p>
+                    <a href="#contact" class="btn-service-detail">자세히 보기 <i class="fa-solid fa-chevron-right" style="font-size:0.8em; margin-left:3px;"></i></a>
                 </div>
                 <div class="service-card reveal" style="transition-delay: 0.4s;">
-                    <div class="service-icon"><i class="fa-solid fa-building-shield"></i></div>
-                    <h3>기업, 사업체</h3>
-                    <p>교묘한 산업스파이 적발, 임직원 횡령 및 배임 조사, 핵심 지적재산권 침해 방어 등 기업의 생존과 직결된 치명적인 기업 범죄를 신속히 처리합니다.</p>
+                    <div class="service-img-icon">
+                        <i class="fa-solid fa-folder-open"></i>
+                        <span class="check-overlay fingerprint"><i class="fa-solid fa-fingerprint"></i></span>
+                    </div>
+                    <h3>증거 수집 및<br>법적 대응 지원</h3>
+                    <div class="service-divider"></div>
+                    <p>은밀한 증거 확보와 법적 절차 진행을 위한 완벽한 대비를 지원합니다.</p>
+                    <a href="#contact" class="btn-service-detail">자세히 보기 <i class="fa-solid fa-chevron-right" style="font-size:0.8em; margin-left:3px;"></i></a>
                 </div>
             </div>
 
